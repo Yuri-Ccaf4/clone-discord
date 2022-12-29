@@ -1,0 +1,80 @@
+@media (min-width: 768px) {
+  .primary-title {
+    font-size: 6rem;
+  }
+
+  .secondary-title {
+    font-size: 4.8rem;
+  }
+
+  .collaboration,
+  .voice-channel,
+  .moderation-tools,
+  .video-call {
+    padding: 6.5rem 0;
+  }
+
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .wrapper img {
+    max-width: 60%;
+  }
+
+  .wrapper .text-group {
+    max-width: 40%;
+    padding: 0 1rem;
+    margin: auto 0;
+  }
+
+  .voice-channel .wrapper {
+    flex-direction: row-reverse;
+  }
+
+  .video-call {
+    text-align: center;
+  }
+  .video-call img {
+    margin: 0 auto;
+  }
+  .hero-content {
+    width: 60rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .collaboration,
+  .voice-channel,
+  .moderation-tools,
+  .video-call {
+    padding: 12rem 0;
+  }
+  .btn-open {
+    display: none;
+  }
+
+  .nav-list {
+    display: flex;
+  }
+
+  .nav-list a {
+    color: #fff;
+    font-size: 1.6rem;
+    margin: 0 2rem;
+    font-family: "Whitney Medium";
+    font-weight: 400;
+  }
+
+  .nav-list a:hover {
+    text-decoration: underline;
+  }
+
+  .hero-content {
+    text-align: center;
+    width: 75rem;
+    margin: 0 auto;
+    padding: 10rem 0;
+  }
+}
